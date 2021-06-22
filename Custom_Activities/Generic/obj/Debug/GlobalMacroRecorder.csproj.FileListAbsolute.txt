@@ -1,0 +1,12 @@
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\bin\Debug\GlobalMacroRecorder.exe
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\bin\Debug\GlobalMacroRecorder.pdb
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\bin\Debug\MouseKeyboardLibrary.dll
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\bin\Debug\MouseKeyboardLibrary.pdb
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\obj\Debug\GlobalMacroRecorder.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\obj\Debug\GlobalMacroRecorder.MacroForm.resources
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\obj\Debug\GlobalMacroRecorder.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\obj\Debug\GlobalMacroRecorder.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\obj\Debug\GlobalMacroRecorder.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\obj\Debug\GlobalMacroRecorder.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\obj\Debug\GlobalMacroRecorder.exe
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\GlobalMacroRecorder\obj\Debug\GlobalMacroRecorder.pdb

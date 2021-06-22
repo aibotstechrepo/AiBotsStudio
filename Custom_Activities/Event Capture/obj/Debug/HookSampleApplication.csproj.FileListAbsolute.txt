@@ -1,0 +1,12 @@
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\bin\Debug\SampleApplication.exe
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\bin\Debug\SampleApplication.pdb
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\bin\Debug\MouseKeyboardLibrary.dll
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\bin\Debug\MouseKeyboardLibrary.pdb
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\obj\Debug\HookSampleApplication.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\obj\Debug\SampleApplication.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\obj\Debug\SampleApplication.HookTestForm.resources
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\obj\Debug\HookSampleApplication.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\obj\Debug\HookSampleApplication.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\obj\Debug\HookSampleApplication.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\obj\Debug\SampleApplication.exe
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\SampleApplication\obj\Debug\SampleApplication.pdb

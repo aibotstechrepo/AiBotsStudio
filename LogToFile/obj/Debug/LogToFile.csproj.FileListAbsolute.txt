@@ -1,0 +1,11 @@
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\bin\Debug\LogToFile.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\bin\Debug\LogToFile.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\bin\Debug\LogToFile.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\obj\Debug\LogToFile.csprojAssemblyReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\obj\Debug\LogToFile_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\obj\Debug\LogToFile.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\obj\Debug\LogToFile.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\obj\Debug\LogToFile.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\obj\Debug\LogToFile.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\LogToFile\obj\Debug\LogToFile.pdb

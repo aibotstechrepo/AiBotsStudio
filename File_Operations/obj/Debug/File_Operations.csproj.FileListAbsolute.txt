@@ -1,0 +1,87 @@
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\File_Operations.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\File_Operations.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\itextsharp.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\itextsharp.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\File_Operations.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\File_Operations.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\itextsharp.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\bin\Debug\itextsharp.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\File_Operations\obj\Debug\File_Operations.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\bin\Debug\File_Operations.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\bin\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\bin\Debug\File_Operations.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\bin\Debug\itextsharp.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\bin\Debug\itextsharp.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\obj\Debug\File_Operations_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\obj\Debug\File_Operations.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\obj\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\obj\Debug\File_Operations.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\File_Operations.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\File_Operations.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\itextsharp.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\itextsharp.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\File_Operations.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\File_Operations.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\itextsharp.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\bin\Debug\itextsharp.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\File_Operations\obj\Debug\File_Operations.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\bin\Debug\File_Operations.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\bin\Debug\File_Operations.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\bin\Debug\File_Operations.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\bin\Debug\itextsharp.dll
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\bin\Debug\itextsharp.xml
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\obj\Debug\File_Operations_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\obj\Debug\File_Operations.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csproj.CopyComplete
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\obj\Debug\File_Operations.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\obj\Debug\File_Operations.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\bin\Debug\LogHandler.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\bin\Debug\LogHandler.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\bin\Debug\LogHandler.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\File_Operations\obj\Debug\File_Operations.csprojAssemblyReference.cache

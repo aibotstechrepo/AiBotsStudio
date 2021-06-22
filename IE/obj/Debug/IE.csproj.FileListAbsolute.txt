@@ -1,0 +1,105 @@
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\IE.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\IE.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\IE.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\WebDriver.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\WebDriver.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\IE_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\IE.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\IE.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\IE.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\IE.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\Microsoft.Web.XmlTransform.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\NuGet.Core.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\WebDriver.Support.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\bin\Debug\WebDriver.Support.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\IE_Content.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\IE.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\IE.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\IE\obj\Debug\IE.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\IE.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\IE.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\IE.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\Microsoft.Web.XmlTransform.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\NuGet.Core.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\WebDriver.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\WebDriver.Support.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\WebDriver.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\WebDriver.Support.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE_Content.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\IE.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\IE.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\IE.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\Microsoft.Web.XmlTransform.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\NuGet.Core.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\WebDriver.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\WebDriver.Support.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\WebDriver.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\bin\Debug\WebDriver.Support.xml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE_Content.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\IE\obj\Debug\IE.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\IE.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\IE.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\IE.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\NuGet.Core.dll
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.dll
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\WebDriver.dll
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\WebDriver.Support.dll
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\WebDriver.xml
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\bin\Debug\WebDriver.Support.xml
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\IE.csprojAssemblyReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\IE_Content.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\IE_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\IE.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\IE.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\IE.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\IE.csproj.CopyComplete
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\IE.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\IE\obj\Debug\IE.pdb
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\IE.exe.config
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\IE.exe
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\IE.pdb
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\Microsoft.Web.XmlTransform.dll
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\NuGet.Core.dll
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.dll
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\WebDriver.dll
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\WebDriver.Support.dll
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\Selenium.WebDriver.Equip.pdb
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\WebDriver.xml
+D:\Studio_New\AiBotsStudio\IE\bin\Debug\WebDriver.Support.xml
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\IE.csprojAssemblyReference.cache
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\App.g.cs
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\IE_Content.g.cs
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\IE_MarkupCompile.cache
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\IE.Properties.Resources.resources
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\IE.csproj.GenerateResource.cache
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\IE.csproj.CoreCompileInputs.cache
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\IE.csproj.CopyComplete
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\IE.exe
+D:\Studio_New\AiBotsStudio\IE\obj\Debug\IE.pdb

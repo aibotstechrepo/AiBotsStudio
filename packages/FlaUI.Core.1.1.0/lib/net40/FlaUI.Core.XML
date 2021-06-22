@@ -1,0 +1,2373 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlaUI.Core</name>
+    </assembly>
+    <members>
+        <member name="T:FlaUI.Core.Application">
+            <summary>
+            Wrapper for an application which should be automated.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Application._process">
+            <summary>
+            The process of this application
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Application.IsStoreApp">
+            <summary>
+            Flag to indicate, if the application is a windows store app
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Application.ProcessId">
+            <summary>
+            The proces Id of the application
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Application.Name">
+            <summary>
+            The name of the application's process
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Application.MainWindowHandle">
+            <summary>
+            The current handle (Win32) of the application's main window.
+            Can be IntPtr.Zero if no main window is currently available.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Application.Close">
+            <summary>
+            Closes the application. Force-closes it after a small timeout.
+            </summary>
+            <returns>Returns true if the application was closed normally and false if it was force-closed.</returns>
+        </member>
+        <member name="M:FlaUI.Core.Application.Kill">
+            <summary>
+            Kills the applications and waits until it is closed
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Application.WaitWhileBusy(System.Nullable{System.TimeSpan})">
+            <summary>
+            Waits as long as the application is busy
+            </summary>
+            <param name="waitTimeout">An optional timeout. If null is passed, the timeout is infinite.</param>
+        </member>
+        <member name="M:FlaUI.Core.Application.WaitWhileMainHandleIsMissing(System.Nullable{System.TimeSpan})">
+            <summary>
+            Waits until the main handle is set
+            </summary>
+            <param name="waitTimeout">An optional timeout. If null is passed, the timeout is infinite.</param>
+        </member>
+        <member name="M:FlaUI.Core.Application.GetMainWindow(FlaUI.Core.AutomationBase,System.Nullable{System.TimeSpan})">
+            <summary>
+            Gets the main window of the application's process
+            </summary>
+            <param name="automation">The automation object to use.</param>
+            <param name="waitTimeout">An optional timeout. If null is passed, the timeout is infinite.</param>
+            <returns>The main window object as <see cref="T:FlaUI.Core.AutomationElements.Window" /> or null if no main window was found within the timeout.</returns>
+        </member>
+        <member name="M:FlaUI.Core.Application.GetAllTopLevelWindows(FlaUI.Core.AutomationBase)">
+            <summary>
+            Gets all top level windows from the application
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationBase">
+            <summary>
+            Base class for the native automation object
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationBase.AutomationType">
+            <summary>
+            The automation type of the automation implementation
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationBase.NotSupportedValue">
+            <summary>
+            Object which represents the "Not Supported" value
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationBase.GetDesktop">
+            <summary>
+            Gets the desktop (root) element
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationBase.FromPoint(FlaUI.Core.Shapes.Point)">
+            <summary>
+            Creates an <see cref="T:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement" /> from a given point
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationBase.FromHandle(System.IntPtr)">
+            <summary>
+            Creates an <see cref="T:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement" /> from a given windows handle (HWND)
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationBase.UnregisterAllEvents">
+            <summary>
+            Removes all registered event handlers
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationBase.Dispose">
+            <summary>
+            Cleans up the resources
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.ComboBoxItem">
+            <summary>
+            Represents an item in a combobox
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement">
+            <summary>
+            Wrapper object for each ui element which is automatable.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.BasicAutomationElement">
+            <summary>
+            Object which contains the native wrapper element (UIA2 or UIA3) for this element.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.Automation">
+            <summary>
+            The current used automationn object.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.ConditionFactory">
+            <summary>
+            Shortcut to the condition factory for the current automation.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FrameworkType">
+            <summary>
+            The direct framework type of the element.
+            Results in "FrameworkType.Unknown" if it couldn't be resolved.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.AutomationType">
+            <summary>
+            The current <see cref="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.AutomationType" /> for this element.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.Patterns">
+            <summary>
+            Standard UIA patterns of this element.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.Properties">
+            <summary>
+            Standard UIA properties of this element.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.CachedChildren">
+            <summary>
+            Gets the cached children for this element.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.CachedParent">
+            <summary>
+            Gets the cached parent for this element.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.Click(System.Boolean)">
+            <summary>
+            Performs a left click on the element.
+            </summary>
+            <param name="moveMouse">Flag to indicate, if the mouse should move slowly (true) or instantly (false).</param>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.DoubleClick(System.Boolean)">
+            <summary>
+            Performs a double left click on the element.
+            </summary>
+            <param name="moveMouse">Flag to indicate, if the mouse should move slowly (true) or instantly (false).</param>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.RightClick(System.Boolean)">
+            <summary>
+            Performs a right click on the element.
+            </summary>
+            <param name="moveMouse">Flag to indicate, if the mouse should move slowly (true) or instantly (false).</param>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.RightDoubleClick(System.Boolean)">
+            <summary>
+            Performs a double right click on the element.
+            </summary>
+            <param name="moveMouse">Flag to indicate, if the mouse should move slowly (true) or instantly (false).</param>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.Focus">
+            <summary>
+            Sets the focus to this element.
+            Warning: This can be unreliable! <see cref="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.SetForeground" /> should be more reliable.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FocusNative">
+            <summary>
+            Sets the focus by using the Win32 SetFocus() method.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.SetForeground">
+            <summary>
+            Brings the element to the foreground.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.DrawHighlight">
+            <summary>
+            Draws a red highlight around the element.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.DrawHighlight(System.Windows.Media.Color)">
+            <summary>
+            Draws a manually colored highlight around the element.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.DrawHighlight(System.Drawing.Color)">
+            <summary>
+            Draws a manually colored highlight around the element.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.DrawHighlight(System.Boolean,System.Drawing.Color,System.Int32)">
+            <summary>
+            Draw a highlight around the element with the given settings.
+            </summary>
+            <param name="blocking">Flag to indicate if further execution waits until the highlight is removed.</param>
+            <param name="color">The color to draw the highlight.</param>
+            <param name="durationInMs">The duration (im ms) how long the highlight is shown.</param>
+            <remarks>Override for winforms color.</remarks>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.DrawHighlight(System.Boolean,System.Windows.Media.Color,System.Int32)">
+            <summary>
+            Draw a highlight around the element with the given settings.
+            </summary>
+            <param name="blocking">Flag to indicate if further execution waits until the highlight is removed.</param>
+            <param name="color">The color to draw the highlight.</param>
+            <param name="durationInMs">The duration (im ms) how long the highlight is shown.</param>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.Capture">
+            <summary>
+            Captures the object as screenshot in WinForms Bitmap format.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.CaptureWpf">
+            <summary>
+            Captures the object as screenshot in WPF BitmapImage format.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.CaptureToFile(System.String)">
+            <summary>
+            Captures the object as screenshot directly into the given file.
+            </summary>
+            <param name="filePath">The filepath where the screenshot should be saved.</param>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FindAll(FlaUI.Core.Definitions.TreeScope,FlaUI.Core.Conditions.ConditionBase)">
+            <summary>
+            Finds all elements in the given treescope and with the given condition.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FindAll(FlaUI.Core.Definitions.TreeScope,FlaUI.Core.Conditions.ConditionBase,System.TimeSpan)">
+            <summary>
+            Finds all elements in the given treescope and with the given condition within the given timeout.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FindFirst(FlaUI.Core.Definitions.TreeScope,FlaUI.Core.Conditions.ConditionBase)">
+            <summary>
+            Finds the first element which is in the given treescope with the given condition.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FindFirst(FlaUI.Core.Definitions.TreeScope,FlaUI.Core.Conditions.ConditionBase,System.TimeSpan)">
+            <summary>
+            Finds the first element which is in the given treescope with the given condition within the given timeout period.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FindFirstNested(FlaUI.Core.Conditions.ConditionBase[])">
+            <summary>
+            Finds the first element by looping thru all conditions.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FindAllNested(FlaUI.Core.Conditions.ConditionBase[])">
+            <summary>
+            Finds all elements by looping thru all conditions.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FindFirstByXPath(System.String)">
+            <summary>
+            Finds for the first item which matches the given xpath.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.FindAllByXPath(System.String)">
+            <summary>
+            Finds all items which match the given xpath.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.GetClickablePoint">
+            <summary>
+            Gets a clickable point of the element.
+            </summary>
+            <exception cref="T:FlaUI.Core.Exceptions.NoClickablePointException">Thrown when no clickable point was found</exception>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.TryGetClickablePoint(FlaUI.Core.Shapes.Point@)">
+            <summary>
+            Tries to get a clickable point of the element.
+            </summary>
+            <param name="point">The clickable point or null, if no point was found</param>
+            <returns>True if a point was found, false otherwise</returns>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.RegisterEvent(FlaUI.Core.Identifiers.EventId,FlaUI.Core.Definitions.TreeScope,System.Action{FlaUI.Core.AutomationElements.Infrastructure.AutomationElement,FlaUI.Core.Identifiers.EventId})">
+            <summary>
+            Registers the given event
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.RegisterPropertyChangedEvent(FlaUI.Core.Definitions.TreeScope,System.Action{FlaUI.Core.AutomationElements.Infrastructure.AutomationElement,FlaUI.Core.Identifiers.PropertyId,System.Object},FlaUI.Core.Identifiers.PropertyId[])">
+            <summary>
+            Registers a property changed event with the given property
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.RegisterStructureChangedEvent(FlaUI.Core.Definitions.TreeScope,System.Action{FlaUI.Core.AutomationElements.Infrastructure.AutomationElement,FlaUI.Core.Definitions.StructureChangeType,System.Int32[]})">
+            <summary>
+            Registers a structure changed event
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.RemoveAutomationEventHandler(FlaUI.Core.Identifiers.EventId,FlaUI.Core.EventHandlers.IAutomationEventHandler)">
+            <summary>
+            Removes the given event handler for the event
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.RemovePropertyChangedEventHandler(FlaUI.Core.EventHandlers.IAutomationPropertyChangedEventHandler)">
+            <summary>
+            Removes the given property changed event handler
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.RemoveStructureChangedEventHandler(FlaUI.Core.EventHandlers.IAutomationStructureChangedEventHandler)">
+            <summary>
+            Removes the given structure changed event handler
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.GetSupportedPatterns">
+            <summary>
+            Gets the available patterns for an element via properties
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.IsPatternSupported(FlaUI.Core.Identifiers.PatternId)">
+            <summary>
+            Checks if the given pattern is available for the element via properties
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.GetSupportedPatternsDirect">
+            <summary>
+            Gets the available patterns for an element via UIA method.
+            Does not work with cached elements and might be unreliable.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.IsPatternSupportedDirect(FlaUI.Core.Identifiers.PatternId)">
+            <summary>
+            Checks if the given pattern is available for the element via UIA method.
+            Does not work with cached elements and might be unreliable.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.GetSupportedPropertiesDirect">
+            <summary>
+            Gets the available properties for an element via UIA method.
+            Does not work with cached elements and might be unreliable.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.IsPropertySupportedDirect(FlaUI.Core.Identifiers.PropertyId)">
+            <summary>
+            Method to check if the element supports the given property via UIA method.
+            Does not work with cached elements and might be unreliable.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.Equals(FlaUI.Core.AutomationElements.Infrastructure.AutomationElement)">
+            <summary>
+            Compares two elements.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Infrastructure.AutomationElement.ToString">
+            <summary>
+            Overrides the string representation of the element with something usefull
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.Grid">
+            <summary>
+            Element for grids and tables.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Grid.RowCount">
+            <summary>
+            Gets the total row count.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Grid.ColumnCount">
+            <summary>
+            Gets the total column count.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Grid.ColumnHeaders">
+            <summary>
+            Gets all column header elements.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Grid.RowHeaders">
+            <summary>
+            Gets all row header elements.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Grid.RowOrColumnMajor">
+            <summary>
+            Gets whether the data should be read primarily by row or by column.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Grid.Header">
+            <summary>
+            Gets the header item.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Grid.Rows">
+            <summary>
+            Returns the rows which are currently visible to UIA. Might not be the full list (eg. in virtualized lists)!
+            Use <see cref="M:FlaUI.Core.AutomationElements.Grid.GetRowByIndex(System.Int32)" /> to make sure to get the correct row.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Grid.SelectedItems">
+            <summary>
+            Gets all selected items.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Grid.SelectedItem">
+            <summary>
+            Gets the first selected item or null otherwise.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Grid.Select(System.Int32)">
+            <summary>
+            Select a row by index.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Grid.Select(System.Int32,System.String)">
+            <summary>
+            Select the first row by text in the given column.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Grid.AddToSelection(System.Int32)">
+            <summary>
+            Add a row to the selection by index.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Grid.AddToSelection(System.Int32,System.String)">
+            <summary>
+            Add a row to the selection by text in the given column.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Grid.RemoveFromSelection(System.Int32)">
+            <summary>
+            Remove a row from the selection by index.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Grid.RemoveFromSelection(System.Int32,System.String)">
+            <summary>
+            Remove a row from the selection by text in the given column.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Grid.GetRowByIndex(System.Int32)">
+            <summary>
+            Get a row by index.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Grid.GetRowByValue(System.Int32,System.String)">
+            <summary>
+            Get a row by text in the given column.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Grid.GetRowsByValue(System.Int32,System.String,System.Int32)">
+            <summary>
+            Get all rows where the value of the given column matches the given value.
+            </summary>
+            <param name="columnIndex">The column index to check.</param>
+            <param name="value">The value to check.</param>
+            <param name="maxItems">Maximum numbers of items to return, 0 for all.</param>
+            <returns>List of found rows.</returns>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.GridHeader">
+            <summary>
+            Header element for grids and tables.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.GridHeaderItem">
+            <summary>
+            Header item for grids and tables.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.GridRow">
+            <summary>
+            Row element for grids and tables.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.GridRow.FindCellByText(System.String)">
+            <summary>
+            Find a cell by a given text.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.GridCell">
+            <summary>
+            Cell element for grids and tables.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.ComboBox">
+            <summary>
+            Element which can be used for combobox elements.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.ComboBox.EditableText">
+            <summary>
+            The text of the editable element inside the combobox.
+            Only works if the combobox is editable.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.ComboBox.IsEditable">
+            <summary>
+            Flag which indicates, if the combobox is editable or not.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.ComboBox.EditableItem">
+            <summary>
+            Gets the editable element
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.ComboBox.Value">
+            <summary>
+            Getter / setter for the selected value.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.ComboBox.SelectedItems">
+            <summary>
+            Gets all selected items.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.ComboBox.SelectedItem">
+            <summary>
+            Gets the first selected item or null otherwise.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.ComboBox.Items">
+            <summary>
+            Gets all items.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.ComboBox.Select(System.Int32)">
+            <summary>
+            Select an item by index.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.ComboBox.Select(System.String)">
+            <summary>
+            Select the first item which matches the given text.
+            </summary>
+            <param name="textToFind">The text to search for.</param>
+            <returns>The first found item or null if no item matches.</returns>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.Menu">
+            <summary>
+            Represents a menu or a menubar, which contains menuitems
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Menu.IsWin32ContextMenu">
+            <summary>
+            Flag to indicate, if the menu is a Win32 context menu because that one needs special handling
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.MenuItem">
+            <summary>
+            Represents a menuitem which can also contain sub-menuitems
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.MenuItem.IsWin32ContextMenu">
+            <summary>
+            Flag to indicate, if the containing menu is a Win32 context menu because that one needs special handling
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.MenuItems">
+            <summary>
+            Represents a list of <see cref="T:FlaUI.Core.AutomationElements.MenuItem"/>s.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElements.PatternElements.SelectionItemAutomationElement">
+            <summary>
+            An UI-item which supports the <see cref="T:FlaUI.Core.Patterns.ISelectionItemPattern" />
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.PatternElements.SelectionItemAutomationElement.IsSelected">
+            <summary>
+            Flag to get/set the selection of this element.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.PatternElements.SelectionItemAutomationElement.Select">
+            <summary>
+            Select this element.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.PatternElements.SelectionItemAutomationElement.AddToSelection">
+            <summary>
+            Add this element to the selection.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.PatternElements.SelectionItemAutomationElement.RemoveFromSelection">
+            <summary>
+            Remove this element from the selection.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Tab.SelectedTabItem">
+            <summary>
+            The currently selected <see cref="T:FlaUI.Core.AutomationElements.TabItem" />
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Tab.SelectedTabItemIndex">
+            <summary>
+            The index of the currently selected <see cref="T:FlaUI.Core.AutomationElements.TabItem" />
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Tab.TabItems">
+            <summary>
+            All <see cref="T:FlaUI.Core.AutomationElements.TabItem" /> objects from this <see cref="T:FlaUI.Core.AutomationElements.Tab" />
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Tab.SelectTabItem(System.Int32)">
+            <summary>
+            Selects a <see cref="T:FlaUI.Core.AutomationElements.TabItem" /> by index
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Tab.SelectTabItem(System.String)">
+            <summary>
+            Selects a <see cref="T:FlaUI.Core.AutomationElements.TabItem" /> by a give text (name property)
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Tab.GetTabItems">
+            <summary>
+            Gets all the <see cref="T:FlaUI.Core.AutomationElements.TabItem" /> objects for this <see cref="T:FlaUI.Core.AutomationElements.Tab" />
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Thumb.SlideHorizontally(System.Int32)">
+            <summary>
+            Moves the slider horizontally
+            </summary>
+            <param name="distance">+ for right, - for left</param>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Thumb.SlideVertically(System.Int32)">
+            <summary>
+            Moves the slider vertically
+            </summary>
+            <param name="distance">+ for down, - for up</param>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Tree.SelectedTreeItem">
+            <summary>
+            The currently selected <see cref="T:FlaUI.Core.AutomationElements.TreeItem" />
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Tree.TreeItems">
+            <summary>
+            All child <see cref="T:FlaUI.Core.AutomationElements.TreeItem" /> objects from this <see cref="T:FlaUI.Core.AutomationElements.Tree" />
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Tree.GetTreeItems">
+            <summary>
+            Gets all the <see cref="T:FlaUI.Core.AutomationElements.TreeItem" /> objects for this <see cref="T:FlaUI.Core.AutomationElements.Tree" />
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.TreeItem.TreeItems">
+            <summary>
+            All child <see cref="T:FlaUI.Core.AutomationElements.TreeItem" /> objects from this <see cref="T:FlaUI.Core.AutomationElements.TreeItem" />
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.TreeItem.Text">
+            <summary>
+            The text of the <see cref="T:FlaUI.Core.AutomationElements.TreeItem" />
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.TreeItem.GetTreeItems">
+            <summary>
+            Gets all the <see cref="T:FlaUI.Core.AutomationElements.TreeItem" /> objects for this <see cref="T:FlaUI.Core.AutomationElements.TreeItem" />
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Window.IsMainWindow">
+            <summary>
+            Flag to indicate, if the window is the application's main window.
+            Is used so that it does not need to be looked up again in some cases (e.g. Context Menu).
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Window.Popup">
+            <summary>
+            Gets the current WPF popup window
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.AutomationElements.Window.ContextMenu">
+            <summary>
+            Gets the contest menu for the window.
+            Note: It uses the FrameworkType of the window as lookup logic. Use <see cref="M:FlaUI.Core.AutomationElements.Window.GetContextMenuByFrameworkType(FlaUI.Core.FrameworkType)" /> if you want to control this.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Window.SetTransparency(System.Byte)">
+            <summary>
+            Brings the element to the foreground
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.AutomationElements.Window.GetMainWindow">
+            <summary>
+            Gets the main window (first window on desktop with the same process as this window)
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.AutomationElementXPathNavigator">
+            <summary>
+            Custom implementation of a <see cref="T:System.Xml.XPath.XPathNavigator" /> which allows
+            selecting items by xpath by using the <see cref="T:FlaUI.Core.ITreeWalker" />.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.BasicAutomationElementBase.Automation">
+            <summary>
+            Underlying <see cref="T:FlaUI.Core.AutomationBase" /> object where this element belongs to
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.BasicAutomationElementBase.GetPropertyValue(FlaUI.Core.Identifiers.PropertyId)">
+            <summary>
+            Gets the desired property value. Ends in an exception if the property is not supported or not cached.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.BasicAutomationElementBase.TryGetPropertyValue(FlaUI.Core.Identifiers.PropertyId,System.Object@)">
+            <summary>
+            Tries to get the property value.
+            Returns false and sets a default value if the property is not supported.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.BasicAutomationElementBase.InternalGetPropertyValue(System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Gets the desired property value
+            </summary>
+            <param name="propertyId">The id of the property to get</param>
+            <param name="cached">Flag to indicate if the cached or current value should be fetched</param>
+            <param name="useDefaultIfNotSupported">
+            Flag to indicate, if the default value should be used if the property is not supported
+            </param>
+            <returns>The value / default value of the property or <see cref="P:FlaUI.Core.AutomationBase.NotSupportedValue" /></returns>
+        </member>
+        <member name="M:FlaUI.Core.BasicAutomationElementBase.InternalGetPattern(System.Int32,System.Boolean)">
+            <summary>
+            Gets the desired pattern
+            </summary>
+            <param name="patternId">The id of the pattern to get</param>
+            <param name="cached">Flag to indicate if the cached or current pattern should be fetched</param>
+            <returns>The pattern or null if it was not found / cached</returns>
+        </member>
+        <member name="T:FlaUI.Core.Conditions.ConditionBase">
+            <summary>
+            Base class for the conditions
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Conditions.ConditionBase.And(FlaUI.Core.Conditions.ConditionBase)">
+            <summary>
+            Adds the given condition with an "and"
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Conditions.ConditionBase.Or(FlaUI.Core.Conditions.ConditionBase)">
+            <summary>
+            Adds the given condition with an "or"
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Conditions.ConditionBase.Not">
+            <summary>
+            Packs this condition into a not condition
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Conditions.ConditionFactory">
+            <summary>
+            Helper class with some commonly used conditions
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Conditions.ConditionFactory.Menu">
+            <summary>
+            Searches for a Menu/MenuBar
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Conditions.ConditionFactory.Grid">
+            <summary>
+            Searches for a DataGrid/List
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Debug.GetXPathToElement(FlaUI.Core.AutomationElements.Infrastructure.AutomationElement,FlaUI.Core.AutomationElements.Infrastructure.AutomationElement)">
+            <summary>
+            Gets the XPath to the element until the desktop or the given root element.
+            Warning: This is quite a heavy operation
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Definitions.AutomationElementMode">
+            <summary>
+            Contains values that specify the type of reference to use when returning UI Automation elements. 
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.AutomationElementMode.None">
+            <summary>
+            Specifies that returned elements have no reference to the underlying UI and contain only cached information.
+            This mode might be used, for example, to retrieve the names of items in a list box without obtaining references to the items themselves.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.AutomationElementMode.Full">
+            <summary>
+            Specifies that returned elements have a full reference to the underlying UI. 
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Definitions.RowOrColumnMajor">
+            <summary>
+            Contains values that specify whether data in a table should be read primarily by row or by column.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.RowOrColumnMajor.RowMajor">
+            <summary>
+            Specifies that data in the table should be read row by row.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.RowOrColumnMajor.ColumnMajor">
+            <summary>
+            Specifies that data in the table should be read column by column
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.RowOrColumnMajor.Indeterminate">
+            <summary>
+            Specifies that the best way to present the data is indeterminate.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Definitions.TreeScope">
+            <summary>
+            Contains values that specify the scope of elements within the UI Automation tree.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.TreeScope.Element">
+            <summary>
+            Specifies that the search include the element itself.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.TreeScope.Children">
+            <summary>
+            Specifies that the search include the element's immediate children.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.TreeScope.Descendants">
+            <summary>
+            Specifies that the search include the element's descendants, including children.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.TreeScope.Subtree">
+            <summary>
+            Specifies that the search include the root of the search and all descendants.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.TreeScope.Parent">
+            <summary>
+            Specifies that the search include the element's parent.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.TreeScope.Ancestors">
+            <summary>
+            Specifies that the search include the element's ancestors, including the parent.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Definitions.WindowInteractionState">
+            <summary>
+            Contains values that specify the current state of the window for purposes of user or programmatic interaction.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.WindowInteractionState.Running">
+            <summary>
+            Indicates that the window is running.
+            This does not guarantee that the window is responding or ready for user interaction.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.WindowInteractionState.Closing">
+            <summary>
+            Indicates that the window is closing.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.WindowInteractionState.ReadyForUserInteraction">
+            <summary>
+            Indicates that the window is ready for user interaction.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.WindowInteractionState.BlockedByModalWindow">
+            <summary>
+            Indicates that the window is blocked by a modal window.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Definitions.WindowInteractionState.NotResponding">
+            <summary>
+            Indicates that the window is not responding.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Identifiers.ConvertibleIdentifierBase">
+            <summary>
+            Base class for identifiers which are convertible
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Identifiers.ConvertibleIdentifierBase.SetConverter``1(System.Func{FlaUI.Core.AutomationBase,System.Object,System.Object})">
+            <summary>
+            Sets a custom convert method to convert the values for this id
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Identifiers.ConvertibleIdentifierBase.Convert``1(FlaUI.Core.AutomationBase,System.Object)">
+            <summary>
+            Converts the given value with the converter or casts it, if no converter is given
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Identifiers.EventId">
+            <summary>
+            A wrapper around the event ids
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Identifiers.EventId.NotSupportedByFramework">
+            <summary>
+            Fixed EventId which is used for patterns that are not supported by the framework.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Identifiers.IdentifierBase">
+            <summary>
+            Base class for wrappers around various identifiers
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Identifiers.IdentifierBase.IdentifiersHolder">
+            <summary>
+            Class which capsules all identifiers which can be used for an automation library
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Identifiers.IdentifierBase.IdentifiersHolder.PropertyDict">
+            <summary>
+            Dictionary which holds all known properties
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Identifiers.IdentifierBase.IdentifiersHolder.EventDict">
+            <summary>
+            Dictionary which holds all known events
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Identifiers.IdentifierBase.IdentifiersHolder.PatternDict">
+            <summary>
+            Dictionary which holds all known patterns
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Identifiers.IdentifierBase.IdentifiersHolder.TextAttributeDict">
+            <summary>
+            Dictionary which holds all known text attributes
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Identifiers.IdentifierBase.IdentifiersDict">
+            <summary>
+            Dictionary which holds all identifiers for each automation library
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Identifiers.IdentifierBase.Id">
+            <summary>
+            The native id of the identifier
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Identifiers.IdentifierBase.Name">
+            <summary>
+            A readable name for the identifier
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Identifiers.IdentifierBase.Register``1(System.Int32,System.Collections.Generic.IDictionary{System.Int32,``0},System.Func{``0})">
+            <summary>
+            Adds the property to the dictionary if it does not exist yet
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Identifiers.IdentifierBase.GetIdHolder(FlaUI.Core.AutomationType)">
+            <summary>
+            Get the ids-holder or create a new one
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Identifiers.PatternId">
+            <summary>
+            A wrapper around the pattern ids
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Identifiers.PatternId.NotSupportedByFramework">
+            <summary>
+            Fixed PatternId which is used for patterns that are not supported by the framework.
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Identifiers.PatternId.AvailabilityProperty">
+            <summary>
+            Property which can be used to check for the patterns availability on an element
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Identifiers.PropertyId">
+            <summary>
+            A wrapper around the property ids
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Identifiers.PropertyId.NotSupportedByFramework">
+            <summary>
+            Fixed PropertyId which is used for patterns that are not supported by the framework.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Identifiers.PropertyId.GetCondition(System.Object)">
+            <summary>
+            Returs a condition for this property with the given value
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Identifiers.TextAttributeId">
+            <summary>
+            A wrapper around text attribute ids
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Input.Helpers">
+            <summary>
+            Class with various helper tools used in various places
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Helpers.WaitUntilInputIsProcessed">
+            <summary>
+            Waits for a generic time which was found to be sufficient to allow
+            input (mouse, keyboard, ...) do be processed
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Helpers.WaitUntilResponsive(System.IntPtr,System.TimeSpan)">
+            <summary>
+            Waits until a window is responsive by sending a WM_NULL message.
+            See: https://blogs.msdn.microsoft.com/oldnewthing/20161118-00/?p=94745
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Input.Keyboard">
+            <summary>
+            Keyboard class to simulate key input.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.Type(System.String)">
+            <summary>
+            Types the given text, one char after another.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.Type(System.Char)">
+            <summary>
+            Types the given character.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.Type(FlaUI.Core.WindowsAPI.VirtualKeyShort[])">
+            <summary>
+            Types the given keys, one by one.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.TypeSimultaneously(FlaUI.Core.WindowsAPI.VirtualKeyShort[])">
+            <summary>
+            Types the given keys simultaneously (starting with the first).
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.TypeScanCode(System.UInt16,System.Boolean)">
+            <summary>
+            Types the given scan-code.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.TypeVirtualKeyCode(System.UInt16)">
+            <summary>
+            Types the given virtual key-code.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.Press(FlaUI.Core.WindowsAPI.VirtualKeyShort)">
+            <summary>
+            Presses the given key.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.PressScanCode(System.UInt16,System.Boolean)">
+            <summary>
+            Presses the given scan-code.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.PressVirtualKeyCode(System.UInt16)">
+            <summary>
+            Presses the given virtual key-code.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.Release(FlaUI.Core.WindowsAPI.VirtualKeyShort)">
+            <summary>
+            Releases the given key.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.ReleaseScanCode(System.UInt16,System.Boolean)">
+            <summary>
+            Releases the given scan-code.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.ReleaseVirtualKeyCode(System.UInt16)">
+            <summary>
+            Releases the given virtual key-code.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.Pressing(FlaUI.Core.WindowsAPI.VirtualKeyShort)">
+            <summary>
+            Presses the given key and releases it when the returned object is disposed.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.HasScanModifier(System.Byte,FlaUI.Core.WindowsAPI.VkKeyScanModifiers)">
+            <summary>
+            Checks if a given byte has a specific VkKeyScan-modifier set.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Keyboard.SendInput(System.UInt16,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Effectively sends the keyboard input command.
+            </summary>
+            <param name="keyCode">The key code to send. Can be the scan code or the virtual key code.</param>
+            <param name="isKeyDown">Flag if the key should be pressed or released.</param>
+            <param name="isScanCode">Flag if the code is the scan code or the virtual key code.</param>
+            <param name="isExtended">Flag if the key is an extended key.</param>
+            <param name="isUnicode">Flag if the key is unicode.</param>
+        </member>
+        <member name="T:FlaUI.Core.Input.Keyboard.KeyPressingActivation">
+            <summary>
+            Disposable class which presses the key on creation
+            and disposes it on destruction.
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Input.Mouse">
+            <summary>
+            Mouse class to simulate mouse input
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.Mouse.ExtraMillisecondsBecauseOfBugInWindows">
+            <summary>
+            Time to add to the double click time to prevent false double clicks
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.Mouse.WheelDelta">
+            <summary>
+            Numer which defines one wheel "click" of the mouse wheel
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.Mouse.CurrentDoubleClickTime">
+            <summary>
+            The current max timespan (in milliseconds) for double clicks
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.Mouse.LastClickTimes">
+            <summary>
+            Dictionary which holds the last click time for each button
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.Mouse.LastClickPositions">
+            <summary>
+            Dictionary which holds the last click position for each button
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.#cctor">
+            <summary>
+            Static constructor
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Input.Mouse.Position">
+            <summary>
+            Current position of the mouse cursor
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Input.Mouse.AreButtonsSwapped">
+            <summary>
+            Flag to indicate if the buttons are swapped (left-handed)
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.MoveBy(System.Int32,System.Int32)">
+            <summary>
+            Moves the mouse by a given delta from the current position
+            </summary>
+            <param name="deltaX">The delta for the x-axis</param>
+            <param name="deltaY">The delta for the y-axis</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.MoveTo(System.Int32,System.Int32)">
+            <summary>
+            Moves the mouse to a new position
+            </summary>
+            <param name="newX">The new position on the x-axis</param>
+            <param name="newY">The new position on the y-axis</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.MoveTo(FlaUI.Core.Shapes.Point)">
+            <summary>
+            Moves the mouse to a new position
+            </summary>
+            <param name="newPosition">The new position for the mouse</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.Click(FlaUI.Core.Input.MouseButton)">
+            <summary>
+            Clicks the specified mouse button at the current location
+            </summary>
+            <param name="mouseButton">The mouse button to click</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.Click(FlaUI.Core.Input.MouseButton,FlaUI.Core.Shapes.Point)">
+            <summary>
+            Moves to a specific position and clicks the specified mouse button
+            </summary>
+            <param name="mouseButton">The mouse button to click</param>
+            <param name="point">The position to move to before clicking</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.DoubleClick(FlaUI.Core.Input.MouseButton)">
+            <summary>
+            Double-clicks the specified mouse button at the current location
+            </summary>
+            <param name="mouseButton">The mouse button to double-click</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.DoubleClick(FlaUI.Core.Input.MouseButton,FlaUI.Core.Shapes.Point)">
+            <summary>
+            Moves to a specific position and double-clicks the specified mouse button
+            </summary>
+            <param name="mouseButton">The mouse button to double-click</param>
+            <param name="point">The position to move to before double-clicking</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.Down(FlaUI.Core.Input.MouseButton)">
+            <summary>
+            Sends a mouse down command for the specified mouse button
+            </summary>
+            <param name="mouseButton">The mouse button to press</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.Up(FlaUI.Core.Input.MouseButton)">
+            <summary>
+            Sends a mouse up command for the specified mouse button
+            </summary>
+            <param name="mouseButton">The mouse button to release</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.Scroll(System.Double)">
+            <summary>
+            Simulates scrolling of the mouse wheel up or down
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.HorizontalScroll(System.Double)">
+            <summary>
+            Simulates scrolling of the horizontal mouse wheel left or right
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.DragHorizontally(FlaUI.Core.Input.MouseButton,FlaUI.Core.Shapes.Point,System.Double)">
+            <summary>
+            Drags the mouse horizontally
+            </summary>
+            <param name="mouseButton">The mouse button to use for dragging</param>
+            <param name="startingPoint">Starting point of the drag</param>
+            <param name="distance">The distance to drag, + for right, - for left</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.DragVertically(FlaUI.Core.Input.MouseButton,FlaUI.Core.Shapes.Point,System.Double)">
+            <summary>
+            Drags the mouse vertically
+            </summary>
+            <param name="mouseButton">The mouse button to use for dragging</param>
+            <param name="startingPoint">Starting point of the drag</param>
+            <param name="distance">The distance to drag, + for down, - for up</param>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.GetFlagsAndDataForButton(FlaUI.Core.Input.MouseButton,System.Boolean,System.UInt32@)">
+            <summary>
+            Converts the button to the correct <see cref="T:FlaUI.Core.WindowsAPI.MouseEventFlags" /> object
+            and fills the additional data if needed
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.SwapButtonIfNeeded(FlaUI.Core.Input.MouseButton)">
+            <summary>
+            Swaps the left/right button if <see cref="P:FlaUI.Core.Input.Mouse.AreButtonsSwapped" /> is set
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.SendInput(System.Int32,System.Int32,System.UInt32,FlaUI.Core.WindowsAPI.MouseEventFlags)">
+            <summary>
+            Effectively sends the mouse input command
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Input.Mouse.NormalizeCoordinates(System.Int32@,System.Int32@)">
+            <summary>
+            Normalizes the coordinates to get the absolute values from 0 to 65536
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.MouseButton.Left">
+            <summary>
+            The left mouse button
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.MouseButton.Middle">
+            <summary>
+            The middle mouse button
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.MouseButton.Right">
+            <summary>
+            The right mouse button
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.MouseButton.XButton1">
+            <summary>
+            The fourth mouse button
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Input.MouseButton.XButton2">
+            <summary>
+            The fifth mouse button
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Overlay.IOverlayManager.Size">
+            <summary>
+            Border size of the overlay
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Overlay.IOverlayManager.Margin">
+            <summary>
+            Margin of the overlay (use negative to move it inside)
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.ScreenCapture">
+            <summary>
+            Provides methods to capture screenshots or partially screenshots
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.ScreenCapture.CaptureScreen">
+            <summary>
+            Captures the whole screen (all monitors)
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.ScreenCapture.CaptureArea(FlaUI.Core.Shapes.Rectangle)">
+            <summary>
+            Captures a specific area from the screen
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.ScreenCapture.CaptureScreenToFile(System.String)">
+            <summary>
+            Captures the screen and saves it to a file
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.ScreenCapture.CaptureAreaToFile(FlaUI.Core.Shapes.Rectangle,System.String)">
+            <summary>
+            Captures a specific area and saves it to a file
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.ScreenCapture.ToWpf(System.Drawing.Bitmap)">
+            <summary>
+            Converts a WinForms bitmap to a WPF bitmap
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Shapes.Point">
+            <summary>
+            UI-independent implementation of a point
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Shapes.Point.X">
+            <summary>
+            Exact x-coordinate
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Shapes.Point.Y">
+            <summary>
+            Exact y-coordinate
+            </summary>
+        </member>
+        <member name="P:FlaUI.Core.Shapes.Point.IsEmpty">
+            <summary>
+            Gets a value indicating whether this point is empty (all coordinates are 0)
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Point.Distance(FlaUI.Core.Shapes.Point)">
+            <summary>
+            Calculates the distance to the other given point
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Point.op_Implicit(FlaUI.Core.Shapes.Point)~System.Drawing.Point">
+            <summary>
+            Implicit conversion to GDI point
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Point.op_Implicit(System.Drawing.Point)~FlaUI.Core.Shapes.Point">
+            <summary>
+            Implicit conversion from GDI point
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Point.op_Implicit(FlaUI.Core.Shapes.Point)~System.Windows.Point">
+            <summary>
+            Implicit conversion to WPF point
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Point.op_Implicit(System.Windows.Point)~FlaUI.Core.Shapes.Point">
+            <summary>
+            Implicit conversion from WPF point
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Point.op_Implicit(FlaUI.Core.Shapes.Point)~FlaUI.Core.WindowsAPI.POINT">
+            <summary>
+            Implicit conversion to native point
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Point.op_Implicit(FlaUI.Core.WindowsAPI.POINT)~FlaUI.Core.Shapes.Point">
+            <summary>
+            Implicit conversion from native point
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Shapes.Point.EmptyPoint">
+            <summary>
+            Instance of an empty point
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Shapes.Rectangle">
+            <summary>
+            UI-independent implementation of a rectangle
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Rectangle.op_Implicit(FlaUI.Core.Shapes.Rectangle)~System.Drawing.Rectangle">
+            <summary>
+            Implicit conversion to GDI rectangle
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Rectangle.op_Implicit(System.Drawing.Rectangle)~FlaUI.Core.Shapes.Rectangle">
+            <summary>
+            Implicit conversion from GDI rectangle
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Rectangle.op_Implicit(FlaUI.Core.Shapes.Rectangle)~System.Windows.Rect">
+            <summary>
+            Implicit conversion to WPF rectangle
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Shapes.Rectangle.op_Implicit(System.Windows.Rect)~FlaUI.Core.Shapes.Rectangle">
+            <summary>
+            Implicit conversion from WPF rectangle
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Shapes.ShapeBase">
+            <summary>
+            Base class for coordinate based shapes
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Tools.ComCallWrapper">
+            <summary>
+            Wrapper for com calls
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Tools.ComCallWrapper.UIA_E_ELEMENTNOTENABLED">
+            <summary>
+            Indicates that a method that requires an enabled element, such as ISelectionItemProvider::Select or IExpandCollapseProvider::Expand, was called on an element that was disabled.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Tools.ComCallWrapper.UIA_E_ELEMENTNOTAVAILABLE">
+            <summary>
+            Indicates that a method was called on a virtualized element, or on an element that no longer exists, usually because it has been destroyed.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Tools.ComCallWrapper.UIA_E_NOCLICKABLEPOINT">
+            <summary>
+            Indicates that the IUIAutomationElement::GetClickablePoint method was called on an element that has no clickable point.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Tools.ComCallWrapper.UIA_E_PROXYASSEMBLYNOTLOADED">
+            <summary>
+            Indicates that a problem occurred when loading an assembly that contains a client - side provider.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Tools.ComCallWrapper.UIA_E_NOTSUPPORTED">
+            <summary>
+            Indicates that the provider explicitly does not support the specified property or control pattern. UI Automation will return this error code to the caller without attempting to provide a default value or falling back to another provider.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Tools.ComCallWrapper.UIA_E_TIMEOUT">
+            <summary>
+            Indicates that the time allotted for a process or operation has expired.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.Tools.ComCallWrapper.UIA_E_INVALIDOPERATION">
+            <summary>
+            Indicates that the method attempted an operation that was not valid.
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Tools.ComCallWrapper.Call(System.Action)">
+            <summary>
+            Wraps an action with a com call and throws the correct win32 exception in case of an error
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Tools.ExtensionMethods.Clamp``1(``0,``0,``0)">
+            <summary>
+            Makes sure a comparable object is between a given range
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Tools.ExtensionMethods.ToInt(System.Boolean)">
+            <summary>
+            Converts a boolean to an int
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Tools.ExtensionMethods.ToBool(System.Int32)">
+            <summary>
+            Converts an int to a boolean
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Tools.ExtensionMethods.ToInt(System.Double)">
+            <summary>
+            Converts a double to the nearest int32
+            </summary>
+        </member>
+        <member name="M:FlaUI.Core.Tools.ExtensionMethods.HasValue(System.Double)">
+            <summary>
+            Checks if a double is not NaN and not Infinity
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.Tools.ItemRealizer">
+            <summary>
+            Helper class which tries to load all items for an item container
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.SystemMetric.SM_SWAPBUTTON">
+            <summary>
+            Nonzero if the meanings of the left and right mouse buttons are swapped; otherwise, 0.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LBUTTON">
+            <summary>
+            Left mouse button
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.RBUTTON">
+            <summary>
+            Right mouse button
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.CANCEL">
+            <summary>
+            Control-break processing
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.MBUTTON">
+            <summary>
+            Middle mouse button (three-button mouse)
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.XBUTTON1">
+            <summary>
+            Windows 2000/XP: X1 mouse button
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.XBUTTON2">
+            <summary>
+            Windows 2000/XP: X2 mouse button
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.BACK">
+            <summary>
+            BACKSPACE key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.TAB">
+            <summary>
+            TAB key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.CLEAR">
+            <summary>
+            CLEAR key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.RETURN">
+            <summary>
+            ENTER key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.SHIFT">
+            <summary>
+            SHIFT key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.CONTROL">
+            <summary>
+            CTRL key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.ALT">
+            <summary>
+            ALT key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.PAUSE">
+            <summary>
+            PAUSE key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.CAPITAL">
+            <summary>
+            CAPS LOCK key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KANA">
+            <summary>
+            Input Method Editor (IME) Kana mode
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.HANGUL">
+            <summary>
+            IME Hangul mode
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.JUNJA">
+            <summary>
+            IME Junja mode
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.FINAL">
+            <summary>
+            IME final mode
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.HANJA">
+            <summary>
+            IME Hanja mode
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KANJI">
+            <summary>
+            IME Kanji mode
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.ESCAPE">
+            <summary>
+            ESC key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.CONVERT">
+            <summary>
+            IME convert
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NONCONVERT">
+            <summary>
+            IME nonconvert
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.ACCEPT">
+            <summary>
+            IME accept
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.MODECHANGE">
+            <summary>
+            IME mode change request
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.SPACE">
+            <summary>
+            SPACEBAR
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.PRIOR">
+            <summary>
+            PAGE UP key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NEXT">
+            <summary>
+            PAGE DOWN key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.END">
+            <summary>
+            END key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.HOME">
+            <summary>
+            HOME key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LEFT">
+            <summary>
+            LEFT ARROW key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.UP">
+            <summary>
+            UP ARROW key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.RIGHT">
+            <summary>
+            RIGHT ARROW key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.DOWN">
+            <summary>
+            DOWN ARROW key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.SELECT">
+            <summary>
+            SELECT key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.PRINT">
+            <summary>
+            PRINT key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.EXECUTE">
+            <summary>
+            EXECUTE key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.SNAPSHOT">
+            <summary>
+            PRINT SCREEN key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.INSERT">
+            <summary>
+            INS key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.DELETE">
+            <summary>
+            DEL key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.HELP">
+            <summary>
+            HELP key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_0">
+            <summary>
+            0 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_1">
+            <summary>
+            1 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_2">
+            <summary>
+            2 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_3">
+            <summary>
+            3 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_4">
+            <summary>
+            4 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_5">
+            <summary>
+            5 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_6">
+            <summary>
+            6 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_7">
+            <summary>
+            7 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_8">
+            <summary>
+            8 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_9">
+            <summary>
+            9 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_A">
+            <summary>
+            A key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_B">
+            <summary>
+            B key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_C">
+            <summary>
+            C key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_D">
+            <summary>
+            D key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_E">
+            <summary>
+            E key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_F">
+            <summary>
+            F key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_G">
+            <summary>
+            G key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_H">
+            <summary>
+            H key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_I">
+            <summary>
+            I key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_J">
+            <summary>
+            J key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_K">
+            <summary>
+            K key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_L">
+            <summary>
+            L key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_M">
+            <summary>
+            M key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_N">
+            <summary>
+            N key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_O">
+            <summary>
+            O key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_P">
+            <summary>
+            P key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_Q">
+            <summary>
+            Q key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_R">
+            <summary>
+            R key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_S">
+            <summary>
+            S key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_T">
+            <summary>
+            T key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_U">
+            <summary>
+            U key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_V">
+            <summary>
+            V key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_W">
+            <summary>
+            W key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_X">
+            <summary>
+            X key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_Y">
+            <summary>
+            Y key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.KEY_Z">
+            <summary>
+            Z key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LWIN">
+            <summary>
+            Left Windows key (Microsoft Natural keyboard)
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.RWIN">
+            <summary>
+            Right Windows key (Natural keyboard)
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.APPS">
+            <summary>
+            Applications key (Natural keyboard)
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.SLEEP">
+            <summary>
+            Computer Sleep key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD0">
+            <summary>
+            Numeric keypad 0 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD1">
+            <summary>
+            Numeric keypad 1 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD2">
+            <summary>
+            Numeric keypad 2 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD3">
+            <summary>
+            Numeric keypad 3 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD4">
+            <summary>
+            Numeric keypad 4 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD5">
+            <summary>
+            Numeric keypad 5 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD6">
+            <summary>
+            Numeric keypad 6 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD7">
+            <summary>
+            Numeric keypad 7 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD8">
+            <summary>
+            Numeric keypad 8 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMPAD9">
+            <summary>
+            Numeric keypad 9 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.MULTIPLY">
+            <summary>
+            Multiply key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.ADD">
+            <summary>
+            Add key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.SEPARATOR">
+            <summary>
+            Separator key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.SUBTRACT">
+            <summary>
+            Subtract key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.DECIMAL">
+            <summary>
+            Decimal key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.DIVIDE">
+            <summary>
+            Divide key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F1">
+            <summary>
+            F1 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F2">
+            <summary>
+            F2 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F3">
+            <summary>
+            F3 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F4">
+            <summary>
+            F4 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F5">
+            <summary>
+            F5 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F6">
+            <summary>
+            F6 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F7">
+            <summary>
+            F7 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F8">
+            <summary>
+            F8 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F9">
+            <summary>
+            F9 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F10">
+            <summary>
+            F10 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F11">
+            <summary>
+            F11 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F12">
+            <summary>
+            F12 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F13">
+            <summary>
+            F13 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F14">
+            <summary>
+            F14 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F15">
+            <summary>
+            F15 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F16">
+            <summary>
+            F16 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F17">
+            <summary>
+            F17 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F18">
+            <summary>
+            F18 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F19">
+            <summary>
+            F19 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F20">
+            <summary>
+            F20 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F21">
+            <summary>
+            F21 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F22">
+            <summary>
+            F22 key, (PPC only) Key used to lock device.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F23">
+            <summary>
+            F23 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.F24">
+            <summary>
+            F24 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NUMLOCK">
+            <summary>
+            NUM LOCK key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.SCROLL">
+            <summary>
+            SCROLL LOCK key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LSHIFT">
+            <summary>
+            Left SHIFT key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.RSHIFT">
+            <summary>
+            Right SHIFT key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LCONTROL">
+            <summary>
+            Left CONTROL key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.RCONTROL">
+            <summary>
+            Right CONTROL key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LMENU">
+            <summary>
+            Left MENU key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.RMENU">
+            <summary>
+            Right MENU key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.BROWSER_BACK">
+            <summary>
+            Windows 2000/XP: Browser Back key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.BROWSER_FORWARD">
+            <summary>
+            Windows 2000/XP: Browser Forward key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.BROWSER_REFRESH">
+            <summary>
+            Windows 2000/XP: Browser Refresh key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.BROWSER_STOP">
+            <summary>
+            Windows 2000/XP: Browser Stop key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.BROWSER_SEARCH">
+            <summary>
+            Windows 2000/XP: Browser Search key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.BROWSER_FAVORITES">
+            <summary>
+            Windows 2000/XP: Browser Favorites key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.BROWSER_HOME">
+            <summary>
+            Windows 2000/XP: Browser Start and Home key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.VOLUME_MUTE">
+            <summary>
+            Windows 2000/XP: Volume Mute key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.VOLUME_DOWN">
+            <summary>
+            Windows 2000/XP: Volume Down key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.VOLUME_UP">
+            <summary>
+            Windows 2000/XP: Volume Up key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.MEDIA_NEXT_TRACK">
+            <summary>
+            Windows 2000/XP: Next Track key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.MEDIA_PREV_TRACK">
+            <summary>
+            Windows 2000/XP: Previous Track key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.MEDIA_STOP">
+            <summary>
+            Windows 2000/XP: Stop Media key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.MEDIA_PLAY_PAUSE">
+            <summary>
+            Windows 2000/XP: Play/Pause Media key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LAUNCH_MAIL">
+            <summary>
+            Windows 2000/XP: Start Mail key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LAUNCH_MEDIA_SELECT">
+            <summary>
+            Windows 2000/XP: Select Media key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LAUNCH_APP1">
+            <summary>
+            Windows 2000/XP: Start Application 1 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.LAUNCH_APP2">
+            <summary>
+            Windows 2000/XP: Start Application 2 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_1">
+            <summary>
+            Used for miscellaneous characters; it can vary by keyboard.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_PLUS">
+            <summary>
+            Windows 2000/XP: For any country/region, the '+' key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_COMMA">
+            <summary>
+            Windows 2000/XP: For any country/region, the ',' key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_MINUS">
+            <summary>
+            Windows 2000/XP: For any country/region, the '-' key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_PERIOD">
+            <summary>
+            Windows 2000/XP: For any country/region, the '.' key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_2">
+            <summary>
+            Used for miscellaneous characters; it can vary by keyboard.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_3">
+            <summary>
+            Used for miscellaneous characters; it can vary by keyboard.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_4">
+            <summary>
+            Used for miscellaneous characters; it can vary by keyboard.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_5">
+            <summary>
+            Used for miscellaneous characters; it can vary by keyboard.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_6">
+            <summary>
+            Used for miscellaneous characters; it can vary by keyboard.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_7">
+            <summary>
+            Used for miscellaneous characters; it can vary by keyboard.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_8">
+            <summary>
+            Used for miscellaneous characters; it can vary by keyboard.
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_102">
+            <summary>
+            Windows 2000/XP: Either the angle bracket key or the backslash key on the RT 102-key keyboard
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.PROCESSKEY">
+            <summary>
+            Windows 95/98/Me, Windows NT 4.0, Windows 2000/XP: IME PROCESS key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.PACKET">
+            <summary>
+            Windows 2000/XP: Used to pass Unicode characters as if they were keystrokes.
+            The VK_PACKET key is the low word of a 32-bit Virtual Key value used for non-keyboard input methods. For more
+            information,
+            see Remark in KEYBDINPUT, SendInput, WM_KEYDOWN, and WM_KEYUP
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.ATTN">
+            <summary>
+            Attn key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.CRSEL">
+            <summary>
+            CrSel key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.EXSEL">
+            <summary>
+            ExSel key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.EREOF">
+            <summary>
+            Erase EOF key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.PLAY">
+            <summary>
+            Play key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.ZOOM">
+            <summary>
+            Zoom key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.NONAME">
+            <summary>
+            Reserved
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.PA1">
+            <summary>
+            PA1 key
+            </summary>
+        </member>
+        <member name="F:FlaUI.Core.WindowsAPI.VirtualKeyShort.OEM_CLEAR">
+            <summary>
+            Clear key
+            </summary>
+        </member>
+        <member name="T:FlaUI.Core.WindowsAPI.ScanCodeShort">
+            <summary>
+            These are the hardware keyboard codes
+            </summary>
+        </member>
+    </members>
+</doc>

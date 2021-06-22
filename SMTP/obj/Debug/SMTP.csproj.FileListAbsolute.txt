@@ -1,0 +1,15 @@
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\bin\Debug\SMTP.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\bin\Debug\SMTP.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\bin\Debug\SMTP.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\bin\Debug\LogHandler.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\bin\Debug\LogHandler.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\bin\Debug\LogHandler.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\obj\Debug\SMTP.csprojAssemblyReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\obj\Debug\SMTP_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\obj\Debug\SMTP.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\obj\Debug\SMTP.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\obj\Debug\SMTP.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\obj\Debug\SMTP.csproj.CopyComplete
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\obj\Debug\SMTP.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\SMTP\obj\Debug\SMTP.pdb

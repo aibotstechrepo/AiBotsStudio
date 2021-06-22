@@ -1,0 +1,14 @@
+{
+  "name": "Views",
+  "description": "Project",
+  "main": "MainWindow.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6813.30356",
+  "packOptions": {},
+  "runtimeOptions": {}
+}

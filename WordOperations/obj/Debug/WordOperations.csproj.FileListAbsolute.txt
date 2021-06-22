@@ -1,0 +1,11 @@
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\bin\Debug\WordOperations.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\bin\Debug\WordOperations.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\bin\Debug\WordOperations.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\obj\Debug\WordOperations_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\obj\Debug\WordOperations.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\obj\Debug\WordOperations.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\obj\Debug\WordOperations.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\obj\Debug\WordOperations.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\obj\Debug\WordOperations.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WordOperations\obj\Debug\WordOperations.csprojAssemblyReference.cache

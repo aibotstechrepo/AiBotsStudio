@@ -1,0 +1,15 @@
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\bin\Debug\Prompt.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\bin\Debug\Prompt.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\bin\Debug\Prompt.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\obj\Debug\Prompt_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\obj\Debug\Prompt.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\obj\Debug\Prompt.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\obj\Debug\Prompt.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\obj\Debug\Prompt.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\obj\Debug\Prompt.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\bin\Debug\String_Operation.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\bin\Debug\String_Operation.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\bin\Debug\String_Operation.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\obj\Debug\Prompt.csproj.CopyComplete
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Prompt\obj\Debug\Prompt.csprojAssemblyReference.cache

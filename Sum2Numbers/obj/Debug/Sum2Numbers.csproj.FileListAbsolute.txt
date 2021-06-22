@@ -1,0 +1,10 @@
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\bin\Debug\Sum2Numbers.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\bin\Debug\Sum2Numbers.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\bin\Debug\Sum2Numbers.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\obj\Debug\Sum2Numbers_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\obj\Debug\Sum2Numbers.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\obj\Debug\Sum2Numbers.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\obj\Debug\Sum2Numbers.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\obj\Debug\Sum2Numbers.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Sum2Numbers\obj\Debug\Sum2Numbers.pdb

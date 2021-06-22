@@ -1,0 +1,11 @@
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\bin\Debug\EnvironmentFunctions.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\bin\Debug\EnvironmentFunctions.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\bin\Debug\EnvironmentFunctions.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\obj\Debug\EnvironmentFunctions.csprojAssemblyReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\obj\Debug\EnvironmentFunctions_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\obj\Debug\EnvironmentFunctions.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\obj\Debug\EnvironmentFunctions.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\obj\Debug\EnvironmentFunctions.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\obj\Debug\EnvironmentFunctions.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\EnvironmentFunctions\obj\Debug\EnvironmentFunctions.pdb

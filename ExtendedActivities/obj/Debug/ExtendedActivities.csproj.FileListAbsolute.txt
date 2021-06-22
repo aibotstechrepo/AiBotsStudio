@@ -1,0 +1,55 @@
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.ResolveComReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\ExtendedActivities\obj\Debug\Interop.SHDocVw.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\Interop.SHDocVw.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.ResolveComReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\Interop.SHDocVw.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.ResolveComReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csprojAssemblyReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\obj\Debug\Interop.SHDocVw.dll
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.ResolveComReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.pdb
+D:\Studio_New\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe.config
+D:\Studio_New\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.exe
+D:\Studio_New\AiBotsStudio\ExtendedActivities\bin\Debug\ExtendedActivities.pdb
+D:\Studio_New\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csprojAssemblyReference.cache
+D:\Studio_New\AiBotsStudio\ExtendedActivities\obj\Debug\Interop.SHDocVw.dll
+D:\Studio_New\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.ResolveComReference.cache
+D:\Studio_New\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.Properties.Resources.resources
+D:\Studio_New\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.GenerateResource.cache
+D:\Studio_New\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.csproj.CoreCompileInputs.cache
+D:\Studio_New\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.exe
+D:\Studio_New\AiBotsStudio\ExtendedActivities\obj\Debug\ExtendedActivities.pdb

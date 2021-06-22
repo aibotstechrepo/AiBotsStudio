@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlaUI.UIA2</name>
+    </assembly>
+    <members>
+        <member name="M:FlaUI.UIA2.Converters.ValueConverter.ToNative(System.Object)">
+            <summary>
+            Converts the given object to an object the native client expects
+            </summary>
+        </member>
+        <member name="T:FlaUI.UIA2.UIA2Automation">
+            <summary>
+            Automation implementation for UIA2
+            </summary>
+        </member>
+        <member name="M:FlaUI.UIA2.UIA2Automation.FromHandle(System.IntPtr)">
+            <summary>
+            Creates an <see cref="T:System.Windows.Automation.AutomationElement" /> from a given windows handle (HWND)
+            </summary>
+        </member>
+        <member name="M:FlaUI.UIA2.UIA2Automation.InternalGetNativeElement(System.Func{System.Windows.Automation.AutomationElement})">
+            <summary>
+            Gets the native element according to the passed action. Uses caching if it is active.
+            </summary>
+        </member>
+        <member name="P:FlaUI.UIA2.UIA2BasicAutomationElement.Automation">
+            <summary>
+            Concrete implementation of the automation object
+            </summary>
+        </member>
+        <member name="P:FlaUI.UIA2.UIA2BasicAutomationElement.NativeElement">
+            <summary>
+            Native object for the ui element
+            </summary>
+        </member>
+    </members>
+</doc>

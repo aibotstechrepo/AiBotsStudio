@@ -1,0 +1,80 @@
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\bin\Debug\Recorder_New.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\bin\Debug\Recorder_New.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\bin\Debug\Recorder_New.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\obj\Debug\Recorder_New.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\obj\Debug\Recorder_New.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\obj\Debug\Recorder_New.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\obj\Debug\Recorder_New.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\obj\Debug\Recorder_New.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\obj\Debug\Recorder_New.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Recorder_New\obj\Debug\Recorder_New.form_rec.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.baml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.g.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.form_rec.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.baml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.g.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.form_rec.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.baml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.g.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.form_rec.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csprojAssemblyReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.baml
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.g.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.form_rec.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.pdb
+D:\Studio_New\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe.config
+D:\Studio_New\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.exe
+D:\Studio_New\AiBotsStudio\Recorder_New\bin\Debug\Recorder_New.pdb
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csprojAssemblyReference.cache
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.baml
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\SendEmailActivityDesigner.g.cs
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New_MarkupCompile.cache
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.g.resources
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.form_rec.resources
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.Properties.Resources.resources
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.GenerateResource.cache
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.csproj.CoreCompileInputs.cache
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.exe
+D:\Studio_New\AiBotsStudio\Recorder_New\obj\Debug\Recorder_New.pdb

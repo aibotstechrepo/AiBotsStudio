@@ -1,0 +1,140 @@
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Tab_Files.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Tab_Files.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Recorder.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.lref
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Recorder.baml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.g.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Generic_Record.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\MouseKeyboardLibrary.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\SampleApplication.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\SampleApplication.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\MouseKeyboardLibrary.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Generic_Record.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Tab_Files.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Tab_Files.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Generic_Record.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\MouseKeyboardLibrary.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\SampleApplication.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\SampleApplication.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\MouseKeyboardLibrary.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\bin\Debug\Generic_Record.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Recorder.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.lref
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Recorder.baml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.g.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.1 - Copy\Rehosted-Workflow-Designer-master\Tab_Files\obj\Debug\Tab_Files.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\bin\Debug\Generic_Record.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\bin\Debug\MouseKeyboardLibrary.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\bin\Debug\SampleApplication.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\bin\Debug\SampleApplication.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\bin\Debug\MouseKeyboardLibrary.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\bin\Debug\Generic_Record.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Recorder.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.lref
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Recorder.baml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.g.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Generic_Record.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\MouseKeyboardLibrary.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\SampleApplication.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\SampleApplication.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\MouseKeyboardLibrary.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Generic_Record.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Recorder.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.lref
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Recorder.baml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.g.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe.config
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Generic_Record.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\MouseKeyboardLibrary.dll
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\SampleApplication.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\SampleApplication.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\MouseKeyboardLibrary.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\bin\Debug\Generic_Record.pdb
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Recorder.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\App.g.cs
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.lref
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Recorder.baml
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.g.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.Properties.Resources.resources
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.GenerateResource.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.CopyComplete
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.exe
+D:\Project\DotNet\Phoenix Studio\Studio Code\Repository\Studio Developemnt v1.1.0.2 - Copy (2)\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csprojAssemblyReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Recorder.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.lref
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Recorder.baml
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.g.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.pdb
+D:\Studio_New\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe.config
+D:\Studio_New\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.exe
+D:\Studio_New\AiBotsStudio\Tab_Files\bin\Debug\Tab_Files.pdb
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csprojAssemblyReference.cache
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Recorder.g.cs
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\App.g.cs
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.cache
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files_MarkupCompile.lref
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Recorder.baml
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.g.resources
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.Properties.Resources.resources
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.GenerateResource.cache
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.csproj.CoreCompileInputs.cache
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.exe
+D:\Studio_New\AiBotsStudio\Tab_Files\obj\Debug\Tab_Files.pdb

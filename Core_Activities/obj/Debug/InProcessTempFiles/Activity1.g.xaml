@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<local:Activity1 sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:local="clr-namespace:Core_Activities;assembly=Core_Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Activities.Presentation</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Internals</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Net.Http</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>Core_Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <local:Activity1.Implementation>
+    <local:For_Loop I="{x:Null}" N="{x:Null}" condition="{x:Null}" operation="{x:Null}">
+      <local:For_Loop.Activities>
+        <Sequence>
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="variable1" />
+          </Sequence.Variables>
+          <local:MessageBox BtnResVal="{x:Null}" Result="{x:Null}" tit="{x:Null}" bdt="Button1" bt="Ok" ic="None">
+            <local:MessageBox.msg>
+              <InArgument x:TypeArguments="x:String">
+                <mca:CSharpValue x:TypeArguments="x:String">variable1</mca:CSharpValue>
+              </InArgument>
+            </local:MessageBox.msg>
+            <sap2010:WorkflowViewState.IdRef>MessageBox_1</sap2010:WorkflowViewState.IdRef>
+          </local:MessageBox>
+          <sap2010:WorkflowViewState.IdRef>Sequence_1</sap2010:WorkflowViewState.IdRef>
+        </Sequence>
+      </local:For_Loop.Activities>
+      <sap2010:WorkflowViewState.IdRef>For_Loop_1</sap2010:WorkflowViewState.IdRef>
+      <sads:DebugSymbol.Symbol>d3REOlxQcm9qZWN0XERvdE5ldFxQaG9lbml4IFN0dWRpb1xTdHVkaW8gQ29kZVxTdHVkaW8gRGV2ZWxvcGVtbnQgdjEuMS4wLjJcQWlCb3RzU3R1ZGlvXENvcmVfQWN0aXZpdGllc1xBY3Rpdml0eTEueGFtbAQvA0IUAgEBMQc+EgMBAQE1CTwcAwEBAjgPOFYDAQED</sads:DebugSymbol.Symbol>
+    </local:For_Loop>
+  </local:Activity1.Implementation>
+  <sap2010:WorkflowViewState.IdRef>Core_Activities.Activity1_1</sap2010:WorkflowViewState.IdRef>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="MessageBox_1" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="444,146">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="For_Loop_1" sap:VirtualizedContainerService.HintSize="458,263" />
+      <sap2010:ViewStateData Id="Core_Activities.Activity1_1" sap:VirtualizedContainerService.HintSize="498,343" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</local:Activity1>

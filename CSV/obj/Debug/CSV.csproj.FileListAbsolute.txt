@@ -1,0 +1,11 @@
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\bin\Debug\CSV.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\bin\Debug\CSV.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\bin\Debug\CSV.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\obj\Debug\CSV.csprojAssemblyReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\obj\Debug\CSV_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\obj\Debug\CSV.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\obj\Debug\CSV.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\obj\Debug\CSV.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\obj\Debug\CSV.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\CSV\obj\Debug\CSV.pdb

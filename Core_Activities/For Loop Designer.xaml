@@ -1,0 +1,173 @@
+﻿<sap:ActivityDesigner x:Class="Core_Activities.For_Loop_Designer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:s="clr-namespace:System;assembly=mscorlib"
+    xmlns:sap="clr-namespace:System.Activities.Presentation;assembly=System.Activities.Presentation"
+    xmlns:sapv="clr-namespace:System.Activities.Presentation.View;assembly=System.Activities.Presentation"
+    xmlns:sapc="clr-namespace:System.Activities.Presentation.Converters;assembly=System.Activities.Presentation"  
+    >
+
+    <sap:ActivityDesigner.Resources>
+        <sapc:ArgumentToExpressionConverter x:Key="ArgumentToExpressionConverter"/>  
+    </sap:ActivityDesigner.Resources>
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+<!--
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel DockPanel.Dock="Left" Width="Auto" HorizontalAlignment="Stretch" Grid.Column="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="int i = " Grid.Column="0"/>
+                        <sapv:ExpressionTextBox Grid.Column="1" Expression="{Binding Path=ModelItem.I ,Mode=TwoWay, Converter={StaticResource ArgumentToExpressionConverter}}"
+                                       ExpressionType="s:Int32"
+                                        HintText="i Value"
+                                       OwnerActivity="{Binding ModelItem,Mode=TwoWay}"                                            
+                                       Margin="0,0,0,0">
+                            <sapv:ExpressionTextBox.BindingGroup>
+                                <BindingGroup/>
+                            </sapv:ExpressionTextBox.BindingGroup>
+                        </sapv:ExpressionTextBox>
+                    </Grid>
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Left" Width="Auto" HorizontalAlignment="Stretch" Grid.Column="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="i" Grid.Column="0"/>
+                        <ComboBox Grid.Column="1" ItemsSource="{Binding Source={StaticResource MyEnumValues}}" SelectedValue="{Binding Path=ModelItem.Option, Mode=TwoWay, Converter={StaticResource ModelToObjectValueConverter}}" VerticalAlignment="Center" Height="22" Margin="0,0,0,4"  ></ComboBox>
+
+                        <sapv:ExpressionTextBox Grid.Column="2" Expression="{Binding Path=ModelItem.I ,Converter={StaticResource ArgumentToExpressionConverter}}"
+                                       ExpressionType="s:Int32"
+                                       HintText="n Value"
+                                       OwnerActivity="{Binding ModelItem}"                                            
+                                       Margin="0,0,0,0">
+                            <sapv:ExpressionTextBox.BindingGroup>
+                                <BindingGroup/>
+                            </sapv:ExpressionTextBox.BindingGroup>
+                        </sapv:ExpressionTextBox>
+                    </Grid>
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Left" Width="Auto" HorizontalAlignment="Stretch" Grid.Column="2">
+
+                    <ComboBox Grid.Column="1" ItemsSource="{Binding Source={StaticResource MyEnumValues}}" SelectedValue="{Binding Path=ModelItem.Option, Mode=TwoWay, Converter={StaticResource ModelToObjectValueConverter}}" VerticalAlignment="Center"  ></ComboBox>
+
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+       --> <StackPanel Grid.Row="0"> 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel DockPanel.Dock="Left"  Width="Auto" HorizontalAlignment="Stretch" Grid.Column="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="Initialize" Grid.Column="0"/>
+                        <sapv:ExpressionTextBox Grid.Column="1"
+                                                HintText="I Value:"
+                                                OwnerActivity="{Binding Path=ModelItem}"
+                                                Expression="{Binding Path=ModelItem.I,
+                                                Mode=TwoWay,
+                                                Converter={StaticResource ArgumentToExpressionConverter },
+                                                ConverterParameter=In}"
+                                                ExpressionType="s:Int32" FontSize="14"/>
+                    </Grid>
+                </StackPanel>
+
+                <StackPanel DockPanel.Dock="Left"  HorizontalAlignment="Stretch" Grid.Column="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="Condition  " Grid.Column="0"/>
+                        <sapv:ExpressionTextBox Grid.Column="1"
+                                                HintText="Condition"
+                                                OwnerActivity="{Binding Path=ModelItem}"
+                                                Expression="{Binding Path=ModelItem.condition,
+                                                Mode=TwoWay,
+                                                Converter={StaticResource ArgumentToExpressionConverter },
+                                                ConverterParameter=In}"
+                                                ExpressionType="s:String" FontSize="14"/>
+                        
+                        <sapv:ExpressionTextBox Grid.Column="2"
+                                                HintText="N Value:"
+                                                OwnerActivity="{Binding Path=ModelItem}"
+                                                Expression="{Binding Path=ModelItem.N,
+                                                Mode=TwoWay,
+                                                Converter={StaticResource ArgumentToExpressionConverter },
+                                                ConverterParameter=In}"
+                                                ExpressionType="s:Int32" FontSize="14"/>
+                    </Grid>
+                </StackPanel>
+
+                <StackPanel DockPanel.Dock="Left" HorizontalAlignment="Stretch" Grid.Column="2">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/> 
+                            <ColumnDefinition Width="*"/> 
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Opetaion" Grid.Column="0"/>
+                        <sapv:ExpressionTextBox Grid.Column="1"
+                                                HintText="Incr/Decr:"
+                                                OwnerActivity="{Binding Path=ModelItem}"
+                                                Expression="{Binding Path=ModelItem.operation,
+                                                Mode=TwoWay,
+                                                Converter={StaticResource ArgumentToExpressionConverter },
+                                                ConverterParameter=In}"
+                                                ExpressionType="s:String" FontSize="14"/>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <sap:WorkflowItemsPresenter HintText="Drop Activities Here"
+                                        Items="{Binding Path=ModelItem.Activities,Mode=TwoWay}" Width="Auto" Height="Auto">
+                <sap:WorkflowItemsPresenter.SpacerTemplate>
+                    <DataTemplate>
+                        <Path Margin="0,15,0,0" 		                              Stretch="Fill" 
+		                              StrokeMiterLimit="2.75" 
+		                              Stroke="#FFA8B3C2" Fill="#FFFFFFFF" 
+		                              Data="F1 M 675.738,744.979L 665.7,758.492L 655.66,744.979L 675.738,744.979 Z " 
+		                              Width="16" Height="10" />
+                    </DataTemplate>
+                </sap:WorkflowItemsPresenter.SpacerTemplate>
+                <sap:WorkflowItemsPresenter.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Vertical"  />
+                    </ItemsPanelTemplate>
+                </sap:WorkflowItemsPresenter.ItemsPanel>
+            </sap:WorkflowItemsPresenter>
+        </StackPanel>
+        <Border BorderBrush="#FFB2B2B2" BorderThickness="1" Grid.ColumnSpan="2" Height="36" Margin="-4,-5,-5,0" Grid.RowSpan="2" VerticalAlignment="Top"/>
+    </Grid>
+</sap:ActivityDesigner>

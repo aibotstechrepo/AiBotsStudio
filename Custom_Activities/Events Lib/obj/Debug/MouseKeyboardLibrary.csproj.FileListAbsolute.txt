@@ -1,0 +1,6 @@
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.dll
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\MouseKeyboardLibrary\bin\Debug\MouseKeyboardLibrary.pdb
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.csprojAssemblyReference.cache
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.csproj.CoreCompileInputs.cache
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.dll
+D:\Project\DotNet\Phoenix Studio\Reference Project\MouseKeyboardLibrary\MouseKeyboardLibrary\obj\Debug\MouseKeyboardLibrary.pdb

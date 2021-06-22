@@ -1,0 +1,11 @@
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\bin\Debug\WindowOperations.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\bin\Debug\WindowOperations.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\bin\Debug\WindowOperations.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\obj\Debug\WindowOperations_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\obj\Debug\WindowOperations.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\obj\Debug\WindowOperations.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\obj\Debug\WindowOperations.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\obj\Debug\WindowOperations.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\obj\Debug\WindowOperations.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\WindowOperations\obj\Debug\WindowOperations.csprojAssemblyReference.cache

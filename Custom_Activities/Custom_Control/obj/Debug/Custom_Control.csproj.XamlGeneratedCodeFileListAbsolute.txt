@@ -1,0 +1,4 @@
+obj\Debug\_Custom_Control.g.cs
+obj\Debug\Activity1.g.cs
+obj\Debug\Custom_Control_Activity1_BeforeInitializeComponentHelper.cs
+D:\Studio_New\AiBotsStudio\Custom_Activities\Custom_Control\obj\Debug\Custom_Control_Activity1_CompiledExpressionRoot.cs

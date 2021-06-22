@@ -1,0 +1,11 @@
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\bin\Debug\Outlook.exe.config
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\bin\Debug\Outlook.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\bin\Debug\Outlook.pdb
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\obj\Debug\Outlook.csprojAssemblyReference.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\obj\Debug\App.g.cs
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\obj\Debug\Outlook_MarkupCompile.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\obj\Debug\Outlook.Properties.Resources.resources
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\obj\Debug\Outlook.csproj.GenerateResource.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\obj\Debug\Outlook.csproj.CoreCompileInputs.cache
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\obj\Debug\Outlook.exe
+E:\Vinod\Studio Developemnt v1.2.1\AiBotsStudio\Outlook\obj\Debug\Outlook.pdb
